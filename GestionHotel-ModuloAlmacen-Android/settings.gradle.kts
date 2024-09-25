@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Client-Mobile"
+rootProject.name = "GestionHotel-ModuloAlmacen-Android"
 include(":modulo-almacen")
