@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_almacen_item_traer"
+        android:icon="@drawable/trolley_32dp"
+        android:title="@string/traer"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_almacen_item_editar"
+        android:icon="@drawable/edit_note_32dp"
+        android:title="@string/editar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_almacen_item_borrar"
+        android:icon="@drawable/delete_32dp"
+        android:title="@string/borrar"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381870295329",
+    "project_id": "gestionhotel-moduloalmacen",
+    "storage_bucket": "gestionhotel-moduloalmacen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381870295329:android:794a7cca8a446966c59660",
+        "android_client_info": {
+          "package_name": "com.cocot3ro.gestionhotel.modulo_almacen.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-mwNvQS-d6DISeAlpPHXubuAsDut-KF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

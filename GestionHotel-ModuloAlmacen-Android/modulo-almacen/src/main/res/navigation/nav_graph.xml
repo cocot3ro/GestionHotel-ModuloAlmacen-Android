@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startScreenFragment">
+
+    <fragment
+        android:id="@+id/startScreenFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.StartScreenFragment"
+        android:label="@string/modulo_almacen"
+        tools:layout="@layout/fragment_start_screen" />
+
+    <fragment
+        android:id="@+id/almacenFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.AlmacenFragment"
+        android:label="@string/almacen"
+        tools:layout="@layout/fragment_almacen" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.SettingsFragment"
+        android:label="@string/ajustes"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.NotificationsFragment"
+        android:label="@string/notificaciones"
+        tools:layout="@layout/fragment_notifications" />
+
+</navigation>

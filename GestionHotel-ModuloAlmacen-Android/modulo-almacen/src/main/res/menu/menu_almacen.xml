@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_almacen_filter"
+        android:icon="@drawable/filter_alt_32dp"
+        android:title="@string/filtrar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/more_vert_32dp"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <group android:id="@+id/almacen_menu">
+                <item
+                    android:id="@+id/menu_almacen_nuevo"
+                    android:icon="@drawable/box_add_32dp"
+                    android:title="@string/nuevo"
+                    app:showAsAction="ifRoom" />
+
+                <item
+                    android:id="@+id/menu_almacen_traer"
+                    android:icon="@drawable/trolley_32dp"
+                    android:title="@string/traer"
+                    app:showAsAction="ifRoom" />
+
+                <item
+                    android:id="@+id/menu_almacen_supply"
+                    android:icon="@drawable/local_shipping_32dp"
+                    android:title="@string/supply"
+                    app:showAsAction="ifRoom" />
+            </group>
+
+            <group android:id="@+id/settings">
+                <item
+                    android:id="@+id/menu_almacen_settings"
+                    android:icon="@drawable/network_manage_32dp"
+                    android:title="@string/ajustes"
+                    app:showAsAction="ifRoom" />
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
