@@ -7,24 +7,24 @@
 
     <fragment
         android:id="@+id/startScreenFragment"
-        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.StartScreenFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen_android.ui.view.fragments.StartScreenFragment"
         android:label="@string/modulo_almacen"
         tools:layout="@layout/fragment_start_screen" />
 
     <fragment
         android:id="@+id/almacenFragment"
-        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.AlmacenFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen_android.ui.view.fragments.AlmacenFragment"
         android:label="@string/almacen"
         tools:layout="@layout/fragment_almacen" />
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.SettingsFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen_android.ui.view.fragments.SettingsFragment"
         android:label="@string/ajustes"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/notificationsFragment"
-        android:name="com.cocot3ro.gestionhotel.modulo_almacen.mobile.ui.view.fragments.NotificationsFragment"
+        android:name="com.cocot3ro.gestionhotel.modulo_almacen_android.ui.view.fragments.NotificationsFragment"
         android:label="@string/notificaciones"
         tools:layout="@layout/fragment_notifications" />
 
