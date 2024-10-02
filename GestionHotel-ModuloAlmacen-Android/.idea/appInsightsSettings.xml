@@ -9,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.cocot3ro.gestionhotel.modulo_almacen.mobile" />
-                  <option name="mobileSdkAppId" value="1:381870295329:android:794a7cca8a446966c59660" />
-                  <option name="projectId" value="gestionhotel-moduloalmacen" />
-                  <option name="projectNumber" value="381870295329" />
+                  <option name="appId" value="com.cocot3ro.gestionhotel.modulo_almacen_android" />
+                  <option name="mobileSdkAppId" value="1:79644661300:android:a823e1a501a4b7f9fc9c61" />
+                  <option name="projectId" value="gh-moduloalmacen-android" />
+                  <option name="projectNumber" value="79644661300" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
