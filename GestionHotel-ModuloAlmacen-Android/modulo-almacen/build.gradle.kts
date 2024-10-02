@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.cocot3ro.gestionhotel.modulo_almacen.mobile"
+    namespace = "com.cocot3ro.gestionhotel.modulo_almacen_android"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.cocot3ro.gestionhotel.modulo_almacen.mobile"
+        applicationId = "com.cocot3ro.gestionhotel.modulo_almacen_android"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
